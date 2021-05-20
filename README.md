@@ -30,6 +30,7 @@ This application allows us to **SECURELY** upload/download any file (e.g. zip/do
 INSERT INTO FT_USERS VALUES ('<username>', '<sha512-hashed-password>');
 ```
 You will use this account to login and start secure file transfer.
+
 6. import this project in eclipse
 7. compile the project using eclipse
 8. in `${PROJECT_DIR}`, run 
@@ -39,6 +40,7 @@ mkdir dist
 ant dist
 ```
 The file transfer program `${PROJECT_DIR}/dist/file_transfer-${version}.ear` should be generated.
+
 9. deploy *file_transfer-1.0.ear* to JBoss
 
 ## File Transfer Application URL
