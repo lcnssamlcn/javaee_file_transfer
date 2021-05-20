@@ -1,0 +1,34 @@
+body {
+    margin: 40px auto;
+    color: #EEEEEE;
+    background-color: #222222;
+}
+
+#content {
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#err-msg-frame {
+    color: #FF4444;
+}
+
+#title-frame > #title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#login-frame {
+    padding: 20px;
+    border-color: #EEEEEE;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#login-fields td {
+    padding: 10px;
+}

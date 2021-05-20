@@ -1,0 +1,4 @@
+CREATE TABLE FT_USERS (
+    name VARCHAR(50) PRIMARY KEY,
+    password LONGTEXT NOT NULL
+);

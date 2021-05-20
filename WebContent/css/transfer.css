@@ -1,0 +1,44 @@
+body {
+    margin-top: 20px;
+}
+
+#file-upload-bar {
+    float: right;
+}
+
+#btn-browse {
+    margin-right: 20px;
+}
+
+#btn-upload {
+    margin-right: 20px;
+}
+
+#shared-folder-path-display-frame {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 30px;
+    clear: right;
+}
+
+#shared-folder-path-display {
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.file-icon {
+    width: 30px;
+}
+
+.file-icon-header-cell {
+    width: 30px;
+}
+
+.download-icon {
+    width: 30px;
+}
+
+.download-icon-header-cell {
+    width: 30px;
+}

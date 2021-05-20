@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<application
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd"
+    version="6">
+    <application-name>file_transfer</application-name>
+    <module>
+        <ejb>file_transfer-ejb-1.0.jar</ejb>
+    </module>
+    <module>
+        <web>
+            <web-uri>file_transfer-web-1.0.war</web-uri>
+            <context-root>file_transfer</context-root>
+        </web>
+    </module>
+</application>

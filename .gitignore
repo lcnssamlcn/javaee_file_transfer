@@ -1,0 +1,12 @@
+# Junk
+.DS_Store
+*.swp
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Compiled class file
+classes
+*.class
